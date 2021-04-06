@@ -9,7 +9,7 @@ public class Main {
         Cat cat4 = new Cat("Kisa", 100);
         Bowl bowl = new Bowl();
         bowl.putFoodInto(300);
-        cat1.eat(bowl);
+        bowl.setFoodAmount(200);
         cat2.eat(bowl);
         cat3.eat(bowl);
         cat4.eat(bowl);

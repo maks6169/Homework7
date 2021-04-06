@@ -24,9 +24,10 @@ public class Bowl {
 
     }
 
-    public int setFoodAmount(int amount) {
-            this.foodAmount += amount;
+    public int setFoodAmount(int i) {
+        this.foodAmount = this.foodAmount + i;
+        System.out.printf("Food increased for %d\n", foodAmount);
 
-return foodAmount;
+        return foodAmount;
     }
 }

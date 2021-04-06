@@ -6,7 +6,6 @@ import java.util.Scanner;
 
 public class Bowl {
     protected int foodAmount;
-    private static final Scanner SCANNER = new Scanner(System.in);
 
     public void putFoodInto(int amount) {
         this.foodAmount += amount;
@@ -24,9 +23,10 @@ public class Bowl {
 
     }
 
-    public int setFoodAmount(int amount) {
-            this.foodAmount += amount;
+    public int setFoodAmount(int i) {
+        this.foodAmount = this.foodAmount + i;
+        System.out.printf("Food increased for %d\n", foodAmount);
 
-return foodAmount;
+        return foodAmount;
     }
 }

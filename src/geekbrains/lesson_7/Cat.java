@@ -7,7 +7,6 @@ public class Cat {
     private String name;
     protected int appetite;
     private boolean hungry;
-    private static final Scanner SCANNER = new Scanner(System.in);
 
     public Cat(String name, int appetite) {
         this.name = name;
